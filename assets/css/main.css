@@ -1,0 +1,15 @@
+/*메인*/
+.main {position: relative;height: 937px;}
+.main .maincot div{position: absolute;width: calc( 100% - 250px );right: 0;top: 50%;transform:translatey(-50%);border-bottom: 1px solid #c1c1c1;padding: 0 0 28px 58px;box-sizing: border-box;}
+.main .maincot div span{font-size: 47px;font-weight:700;font-family: 'Noto Sans KR', sans-serif;letter-spacing: -1.5px;}
+
+.blinking-cursor {
+  pointer-events: none;
+  user-select: none;
+  animation: blink 1s steps(2, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}

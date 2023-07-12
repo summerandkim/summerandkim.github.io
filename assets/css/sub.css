@@ -1,0 +1,114 @@
+/*서브 컨텐츠 디테일 - 스타일01*/
+.detail_style01 .detail_tit{background-color: #fff;border-bottom: 1px solid #bebebe;}
+.detail_style01 .detail_tit p{color: #333;}
+.detail_style01 .detail_info li em{color: #bebebe;font-family: 'gmarket';font-size: 15px;font-weight: 900;}
+.detail_style01 .detail_info li p{color: #333;}
+.detail_style01 .display_w{border:5px solid #000;}
+.detail_style01 .workps{color: #333;}
+
+
+/*서브 컨텐츠 디테일 - 스타일02*/
+.detail_style02 {background-color: #111;}
+.detail_style02 .detail_tit{background-color: #111;border-bottom: 1px solid #4d4d4d;}
+.detail_style02 .detail_tit p{color: #fff;}
+.detail_style02 .detail_info li em{color:#7a7a7a;}
+.detail_style02 .detail_info li p{color: #d5d5d5;}
+.detail_style02 .display_w{border:5px solid #fff;}
+.detail_style02 .workps{color: rgba(255,255,255,0.4);font-weight: 100;}
+
+
+/*서브 컨텐츠 디테일 - 스타일03*/
+.detail_style03 .detail_tit{background-color: #fff;border-bottom: 1px solid #bebebe;}
+.detail_style03 .detail_tit p{color: #333;}
+.detail_style03 .detail_info li em{color:#bebebe;}
+.detail_style03 .detail_info li p{color: #333;}
+.detail_style03 .display_w{border:5px solid #fff;box-shadow: 0px 0px 10px 3px rgba(51,51,51,0.1);}
+.detail_style03 .workps{color: #333;}
+
+
+/*app - 서브컨텐츠 디테일*/
+.appworkthum img{box-sizing: border-box;padding: 0 4%;}
+
+
+/*web - 서브컨텐츠 디테일*/
+/*메디시티 gif 섹션*/
+.gifsec{width: 100%;height:932px;background-color:#EEEAE5;position: relative;}
+.gifsec>img{width: 50%;position: absolute;top: 50%;right: 0;transform: translate(0,-50%);}
+
+
+/*web - 디테일 대표이미지*/
+.sub .display_w01 {background-image: url(../../assets/images/sub/web/web_s01.jpg);background-position: 50%;}
+/*2017*/
+.display2017_w01{background-image: url(../../assets/images/sub/web/2017/life2017_s.jpg);background-position: 50%;}
+/*2019*/
+.sub .display2019_w01{background-image: url(../../assets/images/sub/web/2019/chilseong2019_s.jpg);background-position: 50%;}
+/*2020*/
+.sub .display2020_w01{background-image: url(../../assets/images/sub/web/2020/dungji2020_s.jpg);background-position: 50%;}
+.sub .display2020_w02{background-image: url(../../assets/images/sub/web/2020/dobong2020_s.jpg);background-position: 50%;}
+.sub .display2020_w03{background-image: url(../../assets/images/sub/web/2020/gapyeong2020_s.jpg);background-position: 50%;}
+.sub .display2020_w04{background-image: url(../../assets/images/sub/web/2020/medicity2020_s.png);background-position: 50%;}
+
+
+/*web - 목록 썸네일 이미지*/
+.sub .subcont .cont li .lth_2017life{background-image: url(../../assets/images/list_thum/2017life_lth.jpg);background-position: 50%;}
+.sub .subcont .cont li .lth_2020dungji{background-image: url(../../assets/images/list_thum/2020dungji.jpg);background-position: 50%;}
+.sub .subcont .cont li .lth_2019chilsung{background-image: url(../../assets/images/list_thum/2019chilsung.jpg);background-position: 50%;}
+.sub .subcont .cont li .lth_2020dobong{background-image: url(../../assets/images/list_thum/2020dobong_lth.jpg);background-position: 50%;}
+.sub .subcont .cont li .lth_2020medicity{background-image: url(../../assets/images/list_thum/2020medicity_lth.jpg);background-position: 50%;}
+
+
+/*app - 목록 썸네일 이미지*/
+.cont li .lth_2020bibly{background-image: url(../../assets/images/list_thum/2020bibly_lth.jpg);background-position: 50%;}
+
+
+/*contents - 목록 썸네일 이미지*/
+.cont li .lth_2017info{background-image: url(../../assets/images/list_thum/2017info_lth.jpg);background-position: 50%;}
+.cont li .lth_2020woo{background-image: url(../../assets/images/list_thum/2020woo_lth.jpg);background-position: 50%;}
+
+
+
+/*contents - 서브컨텐츠 디테일*/
+/*웅이삼촌*/
+.detail_sec .woo_bg{background-image: url(../images/sub/contents/2020/woo_bg.jpg);width: 92%;margin: 0 auto 5%;}
+
+.detail_sec .woo_bg .overview{position: relative;height: 880px;padding: 190px 102px;box-sizing: border-box;}
+.detail_sec .woo_bg .overview>img{display: inline-block;width: 50%;margin: 0;position: absolute;top:102px;right: 0;}
+.detail_sec .woo_bg .overview .ov>h4{font-family: 'gmarket';font-weight: 900;font-size: 21px;}
+.detail_sec .woo_bg .overview .ov .overview_txt{margin-top: 30px;}
+.detail_sec .woo_bg .overview .ov .overview_txt>p{font-size: 16px;line-height: 28px;margin-top: 10px;}
+.detail_sec .woo_bg .overview .ov .overview_txt>p:nth-child(1){margin-top: 0;}
+.detail_sec .woo_bg .overview .sz{margin-top: 107px;}
+.detail_sec .woo_bg .overview .sz h4{display: inline-block;font-family: 'gmarket';
+font-weight: 900;font-size: 21px;}
+.detail_sec .woo_bg .overview .sz img{display: inline-block;width:14%;margin: 0 0 0 58px;}
+
+
+.detail_sec .woo_bg .fontclchip{position: relative;width: 100%;height:350px;  background-color: #302E44;}
+.detail_sec .woo_bg .fontclchip{padding: 82px 102px;box-sizing: border-box;}
+.detail_sec .woo_bg .fontclchip .fnt{display: inline-block;}
+.detail_sec .woo_bg .fontclchip .fnt>p{color: #fff;margin-top: 50px;}
+.detail_sec .woo_bg .fontclchip .fnt>p:nth-child(1){margin-top: 0;font-size: 50px;font-family: 'HSBomBaram2.0';}
+.detail_sec .woo_bg .fontclchip .fnt>p:nth-child(2){font-size: 28px;font-family: 'Iropke Batang', serif;}
+.detail_sec .woo_bg .fontclchip .fnt>p:nth-child(3){font-size: 20px;}
+.detail_sec .woo_bg .fontclchip .clchp{background-image: url(../../assets/images/sub/contents/2020/woo_card_clchip.png);background-repeat: no-repeat;width: 225px;height: 128px; position: absolute;top:50%;margin-top:-64px;right: 102px;}
+.detail_sec .woo_bg .fontclchip .clchp>span{line-height: 128px;}
+.detail_sec .woo_bg .fontclchip .clchp>span:nth-child(1){margin-left: 18px;color: #fff;}
+.detail_sec .woo_bg .fontclchip .clchp>span:nth-child(2){float: right;margin-right: 18px;color: #48428c;}
+
+
+
+/*디자이너*/
+.designer_sub{float: right;width: calc( 100% - 250px );height: 100vh;background-color: #000;position: relative;}
+.designer_sub>div{;position: absolute;top: 50%;transform: translateY(-50%);width: 100%;}
+.designer_sub .name{border-bottom: 1px solid rgba(255,255,255,0.4);box-sizing: border-box;padding:50px 100px;}
+.designer_sub .name>span{color: #fff;vertical-align: bottom;font-size: 24px;margin-left: 20px;}
+/*
+.designer_sub h2{font-size: 50px;color: #fff;}
+.designer_sub h2 small{color: #fff;vertical-align: bottom;font-size: 24px;font-weight: 400;margin-left: 40px;}
+*/
+.designer_sub h2::after{display: inline-block;content: '김성은';color: #fff;}
+.designer_sub .info{box-sizing: border-box;padding:50px 100px;}
+.designer_sub .info li{margin-top: 30px;}
+.designer_sub .info li:nth-child(1){margin-top: 0;}
+.designer_sub .info li b{color: #fff;font-weight: 600;width: 20%;display: inline-block;}
+.designer_sub .info li em{display: inline-block;width: 80%;color: #fff;line-height: 30px;vertical-align: text-top;font-weight: 300;}

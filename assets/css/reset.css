@@ -1,0 +1,108 @@
+@charset "utf-8";
+*{font-family: 'kopup'; color:#111; list-style: none; margin:0; padding:0; border:0;letter-spacing: -0.5px;}   
+
+/* 초기화 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 16px;
+	vertical-align: middle;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    position:relative;
+    margin:0;
+    padding:0;
+    font-size:16px;
+    width:100%;
+    word-break:keep-all;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+em{font-style:normal;}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {display:block;text-decoration: none; }
+a:hover, a:active {text-decoration: none;}
+
+select {
+    border-radius: 0;
+    -webkit-border-radius: 1px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+	/*outline: 0;*/
+}
+select::-ms-expand {
+    display: none;
+}
+
+/* Base */
+[role="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+}
+
+/* Reset `button` and button-style `input` default styles */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+    cursor:pointer;
+}
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+a{
+    color:#000;
+    text-decoration:none;
+}
+
+.sr-only {position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden;}
+.clearfix::after{content: '';display: block;clear: both;}

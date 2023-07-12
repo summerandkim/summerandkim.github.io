@@ -1,0 +1,88 @@
+/*kopup 100, 400, 700*/
+@font-face{
+	font-family:"kopup";
+	src:url('../font/KoPubWorld\ Dotum\ Light.eot');
+	src:url('../font/KoPubWorld\ Dotum\ Light.eot?#iefix') format('embedded-opentype'),
+	url('../font/KoPubWorldDotumLight.woff') format('woff'),
+	url('../font/KoPubWorldDotumLight.woff') format('truetype');
+    src:local(※), url('../font/KoPubWorldDotumLight.woff') format('woff');
+    font-weight:100;
+}
+
+@font-face{
+	font-family:"kopup";
+	src:url('../font/KoPubWorld\ Dotum\ Medium.eot');
+	src:url('../font/KoPubWorld\ Dotum\ Medium.eot?#iefix') format('embedded-opentype'),
+	url('../font/KoPubWorldDotumMedium.woff') format('woff'),
+	url('../font/KoPubWorldDotumMedium.woff') format('truetype');
+    src:local(※), url('../font/KoPubWorldDotumMedium.woff') format('woff');
+    font-weight:400;
+}
+
+@font-face{
+	font-family:"kopup";
+	src:url('../font/KoPubWorld\ Dotum\ Bold.eot');
+	src:url('../font/KoPubWorld\ Dotum\ Bold.eot?#iefix') format('embedded-opentype'),
+	url('../font/KoPubWorldDotumBold.woff') format('woff'),
+	url('../font/KoPubWorldDotumBold.woff') format('truetype');
+    src:local(※), url('../font/KoPubWorldDotumBold.woff') format('woff');
+    font-weight:700;
+}
+
+
+/* gmarket */ 
+@font-face {
+  font-family: 'gmarket';
+  src: url('../font/GmarketSansBold.otf') format('opentype'),
+       url('../css/font/GmarketSansBold.woff2') format('woff2'),
+       url('../css/font/GmarketSansBold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gmarket';
+  src: url('../font/GmarketSansMedium.otf') format('opentype'),
+       url('../font/GmarketSansMedium.woff2') format('woff2'),
+       url('../font/GmarketSansMedium.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gmarket';
+	src: url('../font/GmarketSansLight.otf') format('opentype'),
+		   url('../font/GmarketSansLight.woff2') format('woff2'),
+		   url('../font/GmarketSansLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+/*이롭게 바탕체*/
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+
+
+/*HS봄바람체*/
+@font-face {
+  font-family: 'HSBomBaram2.0';
+  src: url('../font/HSBomBaram2.0.eot');
+  src: url('../font/HSBomBaram2.0.eot?#iefix') format('embedded-opentype'),
+       url('../font/HSBomBaram2.0.svg#HSBomBaram2.0') format('svg'),
+       url('../font/HSBomBaram2.0.ttf') format('truetype'),
+       url('../font/HSBomBaram2.0.woff') format('woff'),
+       url('../font/HSBomBaram2.0.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/*영문*/
+@font-face{
+	font-family:"nexon";
+	src:url('../font/NEXON\ Lv1\ Gothic\ OTF\ Bold.eot');
+	src:url('../font/NEXON\ Lv1\ Gothic\ OTF\ Bold.eot?#iefix') format('embedded-opentype'),
+	url('../font/NEXON\ Lv1\ Gothic\ OTF\ Bold.woff') format('woff'),
+	url('../font/NEXON\ Lv1\ Gothic\ OTF\ Bold.woff') format('truetype');
+    src:local(※), url('../font/NEXON\ Lv1\ Gothic\ OTF\ Bold.woff') format('woff');
+    font-weight:700;
+}
