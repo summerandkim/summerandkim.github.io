@@ -59,7 +59,6 @@
 
 /*app - 목록 썸네일 이미지*/
 .cont li .lth_2020bibly{background-image: url(../../assets/images/list_thum/2020bibly_lth.jpg);background-position: 50%;}
-.cont li .lth_2020car{background-image: url(../../assets/images/list_thum/2020car_lth.jpg);background-position: 50%;}
 
 
 /*contents - 목록 썸네일 이미지*/
@@ -75,7 +74,6 @@
 
 .detail_sec .woo_bg .overview{position: relative;height: 880px;padding: 190px 102px;box-sizing: border-box;}
 .detail_sec .woo_bg .overview>img{display: inline-block;width: 50%;margin: 0;position: absolute;top:102px;right: 0;}
-.detail_sec .woo_bg .overview .ov>h4{font-family: 'gmarket';font-weight: 900;font-size: 21px;}
 .detail_sec .woo_bg .overview .ov .overview_txt{margin-top: 30px;}
 .detail_sec .woo_bg .overview .ov .overview_txt>p{font-size: 16px;line-height: 28px;margin-top: 10px;}
 .detail_sec .woo_bg .overview .ov .overview_txt>p:nth-child(1){margin-top: 0;}
@@ -100,15 +98,13 @@ font-weight: 900;font-size: 21px;}
 
 /*한국메디컬 AI연구소*/
 .maic > img {width:90%;}
-.maic::after{content: ''; display: block; width: 100%; height:162px; background:#0265b0;}
-.maic .overview{position: relative;margin:135px 0  135px 0;max-width: 90%;margin: 135px auto;}
-.maic .ov{/* width:83%; *//* margin: 0 auto; */}
+.maic .overview{position: relative;max-width: 90%;margin: 135px auto;}
+.maic .overview:after {content:"";display:block;width:100%;height: 165px;background: #0265b0;margin-top:130px;}
 .maic .ov > img {position: absolute;width: 811px;top: -70px;right: 0;}
 .maic .fnt{/* width: 83%; */margin: 96px auto 0;}
 .maic .fnt > p:nth-child(2){font-size: 37px; font-weight: 800; color:#0265b0;  font-family: 'gmarket';}
 .maic .fnt > p:nth-child(3){width: 90%; font-size: 24px; font-weight: 400; color:#333;  font-family: 'kopup'; margin:16px 0 0 0;}
 .maic .fnt > h4 {margin:0 0 18px 0;}
-
 
 
 
