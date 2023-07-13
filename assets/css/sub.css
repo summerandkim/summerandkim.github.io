@@ -97,6 +97,18 @@ font-weight: 900;font-size: 21px;}
 .detail_sec .woo_bg .fontclchip .clchp>span:nth-child(2){float: right;margin-right: 18px;color: #48428c;}
 
 
+/*한국메디컬 AI연구소*/
+.maic > img {width:90%;}
+.maic::after{content: ''; display: block; width: 100%; height:162px; background:#0265b0;}
+.maic .overview{position: relative; margin:135px 0  135px 0;}
+.maic .ov{width:83%; margin: 0 auto;}
+.maic .ov > img {position: absolute; width: 811px; top: -70px; right: 6%}
+.maic .fnt{width: 83%; margin: 96px auto 0;}
+.maic .fnt > p:nth-child(2){font-size: 37px; font-weight: 800; color:#0265b0;  font-family: 'gmarket';}
+.maic .fnt > p:nth-child(3){width: 90%; font-size: 24px; font-weight: 400; color:#333;  font-family: 'kopup'; margin:16px 0 0 0;}
+.maic .fnt > h4 {margin:0 0 18px 0;}
+
+
 
 /*디자이너*/
 .designer_sub{float: right;width: calc( 100% - 250px );height: 100vh;background-color: #000;position: relative;}

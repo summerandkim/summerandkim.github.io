@@ -78,6 +78,7 @@ html, body{width: 100%; height: 100%;}
 /*서브 내부 상세페이지_오버뷰txt*/
 .sub .detail_cont .overview .overview_txt{display: inline-block;width: 78%;}
 .sub .detail_cont .overview .overview_txt>p{font-size:17px;line-height: 26px;}
+.detail_sec .overview .overview_txt>p{font-size: 16px;line-height: 28px;margin-top: 10px;}
 
 /*서브 내부 상세페이지_오버뷰 동그라미*/
 .sub .detail_cont .overview .concept_cir{margin-top: 40px;}
