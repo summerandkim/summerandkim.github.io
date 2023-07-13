@@ -97,12 +97,14 @@ font-weight: 900;font-size: 21px;}
 
 
 /*한국메디컬 AI연구소*/
+.maic{background-image: url(../../assets/images/sub/contents/2021/maic_bg.png); background-position: 0% 50%; background-repeat: no-repeat;}
 .maic > img {width:90%;}
 .maic .overview{position: relative;max-width: 90%;margin: 135px auto;}
 .maic .overview:after {content:"";display:block;width:100%;height: 165px;background: #0265b0;margin-top:130px;}
 .maic .ov > img {position: absolute;width: 811px;top: -70px;right: 0;}
-.maic .fnt{/* width: 83%; */margin: 96px auto 0;}
-.maic .fnt > p:nth-child(2){font-size: 37px; font-weight: 800; color:#0265b0;  font-family: 'gmarket';}
+.maic .fnt{margin: 96px auto 0;}
+.maic .fnt > p:nth-child(2), .maic .fnt b{font-size: 37px; font-weight: 800; color:#0265b0;  font-family: 'gmarket';}
+.maic .fnt b{font-weight: 900;}
 .maic .fnt > p:nth-child(3){width: 90%; font-size: 24px; font-weight: 400; color:#333;  font-family: 'kopup'; margin:16px 0 0 0;}
 .maic .fnt > h4 {margin:0 0 18px 0;}
 
