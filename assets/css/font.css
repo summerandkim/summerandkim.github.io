@@ -34,8 +34,8 @@
 @font-face {
   font-family: 'gmarket';
   src: url('../font/GmarketSansBold.otf') format('opentype'),
-       url('../css/font/GmarketSansBold.woff2') format('woff2'),
-       url('../css/font/GmarketSansBold.woff') format('woff');
+       url('../font/font/GmarketSansBold.woff2') format('woff2'),
+       url('../font/font/GmarketSansBold.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
