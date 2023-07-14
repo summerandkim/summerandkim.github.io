@@ -59,6 +59,7 @@
 
 /*app - 목록 썸네일 이미지*/
 .cont li .lth_2020bibly{background-image: url(../../assets/images/list_thum/2020bibly_lth.jpg);background-position: 50%;}
+.cont li .lth_2020car{background-image: url(../../assets/images/list_thum/2020car_lth.jpg);background-position: 50%;}
 
 
 /*contents - 목록 썸네일 이미지*/
@@ -82,7 +83,6 @@
 font-weight: 900;font-size: 21px;}
 .detail_sec .woo_bg .overview .sz img{display: inline-block;width:14%;margin: 0 0 0 58px;}
 
-
 .detail_sec .woo_bg .fontclchip{position: relative;width: 100%;height:350px;  background-color: #302E44;}
 .detail_sec .woo_bg .fontclchip{padding: 82px 102px;box-sizing: border-box;}
 .detail_sec .woo_bg .fontclchip .fnt{display: inline-block;}
@@ -103,7 +103,7 @@ font-weight: 900;font-size: 21px;}
 .maic .overview:after {content:"";display:block;width:100%;height: 165px;background: #0265b0;margin-top:130px;}
 .maic .ov > img {position: absolute;width: 811px;top: -70px;right: 0;}
 .maic .fnt{margin: 96px auto 0;}
-.maic .fnt > p:nth-child(2), .maic .fnt b{font-size: 37px; font-weight: 800; color:#0265b0;  font-family: 'gmarket';}
+.maic .fnt > p:nth-child(2), .maic .fnt b{font-size: 37px; font-weight: 800; color:#0265b0; font-family: 'gmarket';}
 .maic .fnt b{font-weight: 900;}
 .maic .fnt > p:nth-child(3){width: 90%; font-size: 24px; font-weight: 400; color:#333;  font-family: 'kopup'; margin:16px 0 0 0;}
 .maic .fnt > h4 {margin:0 0 18px 0;}
