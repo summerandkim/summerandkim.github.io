@@ -1,39 +1,3 @@
-/*서브 컨텐츠 디테일 - 스타일01*/
-.detail_style01 .detail_tit{background-color: #fff;border-bottom: 1px solid #bebebe;}
-.detail_style01 .detail_tit p{color: #333;}
-.detail_style01 .detail_info li em{color: #bebebe;font-family: 'gmarket';font-size: 15px;font-weight: 900;}
-.detail_style01 .detail_info li p{color: #333;}
-.detail_style01 .display_w{border:5px solid #000;}
-.detail_style01 .workps{color: #333;}
-
-
-/*서브 컨텐츠 디테일 - 스타일02*/
-.detail_style02 {background-color: #111;}
-.detail_style02 .detail_tit{background-color: #111;border-bottom: 1px solid #4d4d4d;}
-.detail_style02 .detail_tit p{color: #fff;}
-.detail_style02 .detail_info li em{color:#7a7a7a;}
-.detail_style02 .detail_info li p{color: #d5d5d5;}
-.detail_style02 .display_w{border:5px solid #fff;}
-.detail_style02 .workps{color: rgba(255,255,255,0.4);font-weight: 100;}
-
-
-/*서브 컨텐츠 디테일 - 스타일03*/
-.detail_style03 .detail_tit{background-color: #fff;border-bottom: 1px solid #bebebe;}
-.detail_style03 .detail_tit p{color: #333;}
-.detail_style03 .detail_info li em{color:#bebebe;}
-.detail_style03 .detail_info li p{color: #333;}
-.detail_style03 .display_w{border:5px solid #fff;box-shadow: 0px 0px 10px 3px rgba(51,51,51,0.1);}
-.detail_style03 .workps{color: #333;}
-
-
-
-/*web*/
-/*메디시티 gif 섹션*/
-.gifsec{width: 100%;height:932px;background-color:#EEEAE5;position: relative;}
-.gifsec>img{width: 50%;position: absolute;top: 50%;right: 0;transform: translate(0,-50%);}
-
-
-/*-------------------------------------------------------------------------*/
 /*web - 디테일 대표이미지*/
 .sub .display_w01 {background-image: url(../../assets/images/sub/web/web_s01.jpg);background-position: 50%;}
 /*2017*/
@@ -45,7 +9,7 @@
 .sub .display2020_w02{background-image: url(../../assets/images/sub/web/2020/dobong2020_s.jpg);background-position: 50%;}
 .sub .display2020_w03{background-image: url(../../assets/images/sub/web/2020/gapyeong2020_s.jpg);background-position: 50%;}
 .sub .display2020_w04{background-image: url(../../assets/images/sub/web/2020/medicity2020_s.png);background-position: 50%;}
-
+.sub .display2023_w01{background-image: url(../../assets/images/sub/web/2023/yongdong2023_s.jpg);background-position: 50%;}
 
 /*-------------------------------------------------------------------------*/
 /*목록 썸네일 이미지*/
@@ -55,6 +19,7 @@
 .sub .subcont .cont li .lth_2019chilsung{background-image: url(../../assets/images/list_thum/2019chilsung.jpg);background-position: 50%;}
 .sub .subcont .cont li .lth_2020dobong{background-image: url(../../assets/images/list_thum/2020dobong_lth.jpg);background-position: 50%;}
 .sub .subcont .cont li .lth_2020medicity{background-image: url(../../assets/images/list_thum/2020medicity_lth.jpg);background-position: 50%;}
+.sub .subcont .cont li .lth_2021sudam{background-image: url(../../assets/images/list_thum/2021sudam_lth.jpg);background-position: 50%;}
 
 /*app*/
 .cont li .lth_2020bibly{background-image: url(../../assets/images/list_thum/2020bibly_lth.jpg);background-position: 50%;}
@@ -69,25 +34,70 @@
 /*-------------------------------------------------------------------------*/
 /*Web - 서브컨텐츠 디테일*/
 /*칠성시장*/
-.sub .chilsung{background:#FEF9F6;}
+.chilsung{background:#FEF9F6;}
 .sub .chilsung .concept_cir>li>p>b{color:#A26A4B;border-bottom: 1px solid #F7CDAE;}
-.sub .chilsung .concept_cir>li>p>em{color:#A26A4B;}
-.sub .chilsung .concept_cir>li>p>b{border-bottom: 1px solid #F7CDAE;}
-.sub .chilsung .concept_cir>li{background-color:#fff;}
+.chilsung .concept_cir>li>p>em{color:#A26A4B;}
+.chilsung .concept_cir>li>p>b{border-bottom: 1px solid #F7CDAE;}
+.chilsung .concept_cir>li{background-color:#fff;}
 
 /*메디시티 5대암*/
-.sub .medicity{background:#F0EFED;}
-.sub .medicity .concept_cir>li{background-color:#333333;}
-.sub .medicity .concept_cir>li>p>b{color:rgba(255,255,255,0.8);border-bottom: 1px solid rgba(255,255,255,0.3);}
-.sub .medicity .concept_cir>li>p>em{color:#fff;}
-.sub .medicity .overview .concept_cir li{border:1px solid #F9EBEC;}
+.medicity{background:#F0EFED;}
+.medicity .concept_cir>li{background-color:#333333;}
+.medicity .concept_cir>li>p>b{color:rgba(255,255,255,0.8);border-bottom: 1px solid rgba(255,255,255,0.3);}
+.medicity .concept_cir>li>p>em{color:#fff;}
+.medicity .overview .concept_cir li{border:1px solid #F9EBEC;}
+/*메디시티 gif 섹션*/
+.gifsec{width: 100%;height:932px;background-color:#EEEAE5;position: relative;}
+.gifsec>img{width: 50%;position: absolute;top: 50%;right: 0;transform: translate(0,-50%);}
+
+/*우리둥지대구*/
+.dungji {background-color:#FEF9F6;}
+.dungji .concept_cir>li>p>b{color: #b80b0c;border-bottom: 1px solid #F1CECE;}
+.dungji .concept_cir>li>p>em{color: #CF7777;}
+.dungji .overview .concept_cir li{border: 1px solid #F9EBEC;}
+.dungji .concept_cir>li{background: #fff;}
+
+/*도봉구의회*/
+.dobong{background-image:url(../images/sub/web/2020/20.02-ov_bg.jpg);}
+.dobong .concept_cir>li{background-color:#fff;}
+.dobong .concept_cir>li>p>b{color:#002d68;border-bottom: 1px solid #D9E1EA;}
+.dobong .concept_cir>li>p>em{color:#73829E;}
+.dobong .overview .concept_cir li{border:1px solid #DCE3EC;}
+
+/*라이프*/
+.life{background: #fff;}
+.life .concept_cir>li{background-color:#333;}
+.life .concept_cir>li>p>b{border-bottom:1px solid rgba(255,255,255,0.4);}
+.life .concept_cir>li>p>b,.life .concept_cir>li>p>em{color:#fff;}
+.life_ad{background: #F7F7F7;}
+.life_ad .conce{background-color:#D9D9D9;}
+.sub .admonition p{border-top: 1px solid #999;}
+
+/*영동연수원*/
+.yongdong{background:#EFF4F1;}
+.yongdong .concept_cir>li{background-color:#fff;}
+.yongdong .concept_cir>li>p>b{color:#2f483f;border-bottom: 1px solid #bacdc6;}
+.dobong .concept_cir>li>p>em{color:#2f483f;}
+.dobong .overview .concept_cir li{border:1px solid #bacdc6;}
+
+
 /*-------------------------------------------------------------------------*/
 /*App - 서브컨텐츠 디테일*/
 /*대구광역시 전기차 자동차*/
-.sub .bg_white .concept_cir>li{background-color:#333;}
-.sub .bg_white .concept_cir>li>p>b,.sub .bg_white .concept_cir>li>p>em{color:#fff;}
-.sub .bg_white .concept_cir>li>p>b{border-bottom: 1px solid rgba(255,255,255,0.4);}
+.daeguele .concept_cir>li>p>b{border-bottom: 1px solid rgba(255,255,255,0.4);}
+.daeguele {background: #353535;}
+.daeguele > .overview > h4{color: #00c484;}
+.daeguele .overview_txt > p{color:#fff;}
+.daeguele .concept_cir li{background: #00aaff;}
+.daeguele .concept_cir b{color:#fff;}
+.daeguele .concept_cir em{color:#fff;}
 
+/*비블리*/
+.bibly {background-color:#FEF9F6;}
+.bibly .concept_cir>li>p>b{color: #b80b0c;border-bottom: 1px solid #F1CECE;}
+.bibly .concept_cir>li>p>em{color: #CF7777;}
+.bibly .overview .concept_cir li{border: 1px solid #F9EBEC;}
+.bibly .concept_cir>li{background: #fff;}
 
 /*-------------------------------------------------------------------------*/
 /*contents - 서브컨텐츠 디테일*/
@@ -129,7 +139,7 @@ font-weight: 900;font-size: 21px;}
 
 
 /*영동연수원 포스터*/
-.detail_sec img{width: inherit;}
+.yongdong .detail_sec img{width: inherit;}
 
 
 /*-------------------------------------------------------------------------*/
