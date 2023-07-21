@@ -37,6 +37,12 @@ html, body{width: 100%; height: 100%;}
 
 
 
+/*서브 썸네일(제일 상단 대표이미지)*/
+/*app*/
+.appworkthum img{box-sizing: border-box;padding: 0 4%;}
+
+
+
 /*서브 콘텐츠*/
 .sub .subcont .cont {margin-top: 160px;box-sizing: border-box; padding: 35px 35px 70px 70px;}
 .sub .subcont .cont ul {}
@@ -71,12 +77,6 @@ html, body{width: 100%; height: 100%;}
 
 
 
-/*서브 내부 상세페이지_공통css*/
-.sub .detail_cont>div{width: 1200px;margin: 0 auto;box-sizing: border-box;padding: 90px 0;}
-.sub .detail_cont>div h4{display: inline-block;width: 21%;font-family:'gmarket';font-size: 21px;font-weight: 900; vertical-align: top;}
-
-
-
 /*서브 내부 상세페이지_오버뷰txt*/
 .sub .detail_cont .overview .overview_txt{display: inline-block;width: 78%;}
 .sub .detail_cont .overview .overview_txt>p{font-size:17px;line-height: 26px;}
@@ -94,6 +94,8 @@ html, body{width: 100%; height: 100%;}
 .sub .detail_cont .overview .concept_cir>li>p>em{font-weight: 400;font-size: 14px;line-height: 17px;}
 .sub .detail_cont .overview .concept_cir>li>p>b,.sub .detail_cont .overview .concept_cir>li>p>em{display: block;box-sizing: border-box;padding:10px 7px;}
 
+
+
 /*서브 내부 상세페이지_오버뷰 첨언*/
 .sub .admonition{background-color: #F7F7F7;padding:80px 0;}
 .sub .admonition>div{width: 1200px;margin: 0 auto;}
@@ -103,6 +105,8 @@ html, body{width: 100%; height: 100%;}
 .sub .admonition .conce{background-color: #D9D9D9;display: inline-block;width:27%;border-radius: 10px 0 20px 10px;box-sizing: border-box;padding:15px 15px 15px 60px;position: relative;line-height: 19px;}
 .sub .admonition .conce>span{position: absolute;left: 18px;top: 15px;}
 .sub .admonition p{display: inline-block;width: 69.5%;margin-left: 3%;border-top: 1px solid #999;box-sizing: border-box;padding: 10px 0 0 0;line-height: 25px;}
+
+
 
 /*서브 내부 상세페이지_컬러*/
 .sub .detail_cont>.color h5{font-family:'gmarket';color: #b7b7b7;font-weight: 600;font-size: 16px;}
@@ -115,44 +119,29 @@ html, body{width: 100%; height: 100%;}
 .sub .detail_cont>.color>div{display: inline-block;width: 33%;}
 .sub .border_b{border-bottom: 1px solid #e8e8e8;}
 
-/*서브 내부 상세페이지_배경색*/
-.sub .bg_white{background-color: #fff;}
-.sub .bg_white .concept_cir>li{background-color:#333;}
-.sub .bg_white .concept_cir>li>p>b,.sub .bg_white .concept_cir>li>p>em{color:#fff;}
-.sub .bg_white .concept_cir>li>p>b{border-bottom: 1px solid rgba(255,255,255,0.4);}
 
-.sub .bg_01{background-color:#FDF4ED;}
-.sub .bg_01 .concept_cir>li{background-color:#fff;}
-.sub .bg_01 .concept_cir>li>p>b{color:#A26A4B;border-bottom: 1px solid #F7CDAE;}
-.sub .bg_01 .concept_cir>li>p>em{color:#A26A4B;}
 
-.sub .bg_02{background-color:#FEF9F6;}
+
+/*서브 내부 상세페이지_레이아웃*/
 .sub .bg_02 .concept_cir>li{background-color:#fff;}
 .sub .bg_02 .concept_cir>li>p>b{color:#b80b0c;border-bottom: 1px solid #F1CECE;}
 .sub .bg_02 .concept_cir>li>p>em{color:#CF7777;}
 .sub .bg_02 .overview .concept_cir li{border:1px solid #F9EBEC;}
 
-.sub .bg_03{background-color:#F0EFED;}
-.sub .bg_03 .concept_cir>li{background-color:#333333;}
-.sub .bg_03 .concept_cir>li>p>b{color:rgba(255,255,255,0.8);border-bottom: 1px solid rgba(255,255,255,0.3);}
-.sub .bg_03 .concept_cir>li>p>em{color:#fff;}
-.sub .bg_03 .overview .concept_cir li{border:1px solid #F9EBEC;}
+
+
 
 .sub .bg_pat01{background-image: url(../images/sub/web/2020/20.02-ov_bg.jpg);}
-
-
 .sub .bg_pat01{background-color:#FEF9F6;}
 .sub .bg_pat01 .concept_cir>li{background-color:#fff;}
 .sub .bg_pat01 .concept_cir>li>p>b{color:#002d68;border-bottom: 1px solid #D9E1EA;}
 .sub .bg_pat01 .concept_cir>li>p>em{color:#73829E;}
 .sub .bg_pat01 .overview .concept_cir li{border:1px solid #DCE3EC;}
 
-
 .sub .bg_pat02{background-image: url(../images/sub/web/2020/20.02-co_bg.png);}
 
 
 /*서브콘텐츠 - 상단 디스플레이*/
-.sub .workthum{padding: 88px 0 176px;}
 .sub .display_w{width: 935px;height: 537px;margin:0 auto; border-radius: 8px;position: relative;}
 
 /*디테일 디스플레이 버튼*/
@@ -164,6 +153,37 @@ html, body{width: 100%; height: 100%;}
 .button_text_container::after{content: '';display: inline-block;background-image: url(../images/common/linkgo.png);width: 17px;height: 16px;margin-left: 23px;vertical-align: middle;}
 .explode-circle {animation: explode 0.5s forwards;}
 .desplode-circle{animation: desplode 0.5s forwards;}
+
+
+
+/*레이아웃1*/
+.sub .workthum{padding: 88px 0 176px;}
+.sub .layout1{width: ; margin: ;}
+.sub .layout1 > .overview > h4{color:#;}
+.sub .layout1 .overview_txt > p{color:#;}
+.sub .layout1 .concept_cir li{background: #;}
+.sub .layout1 .concept_cir b{color:#;}
+.sub .layout1 .concept_cir em{color:#;}
+.sub .layout1 .concept_cir b{border-bottom:#;}
+
+
+
+/*서브 내부 상세페이지_공통css*/
+.sub .detail_cont>div{width: 1200px;margin: 0 auto;box-sizing: border-box;padding: 90px 0;}
+.sub .detail_cont>div h4{display: inline-block;width: 21%;font-family:'gmarket';font-size: 21px;font-weight: 900; vertical-align: top;}
+
+
+
+
+/*레이아웃2*/
+.sub .workthum2{padding:88px 0 0;}
+.sub .layout2{width: 1521px; margin: 0 auto;}
+.sub .layout2 > .overview > h4{color:#00c484;}
+.sub .layout2 .overview_txt > p{color:#fff;}
+.sub .layout2 .concept_cir li{background: #00aaff;}
+.sub .layout2 .concept_cir b{color:#fff;}
+.sub .layout2 .concept_cir em{color:#fff;}
+.sub .layout2 .concept_cir b{border-bottom:#fff;}
 
 @keyframes explode {
   0% {
@@ -213,4 +233,37 @@ html, body{width: 100%; height: 100%;}
 .sub .df_bg>ul>li{float: left;width: 30%; height: 270px;background-color: #fff;margin-right: 5%;box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.1);position: relative;}
 .sub .df_bg>ul>li:last-child{margin-right: 0;}
 .sub .df_bg>ul>li a{display: block;width: 100%;height: 100%;background:linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.4));}
+
+
+
+
+/*배경색*/
+.bg_white{background-color: #fff;}
+.bg_333{background-color:#353535;}
+
+/*글자색*/
+.white{color:#fff;}
+.black{color:#000;}
+.black333{color:#333;}
+.blue{color:#00AAFF;}
+
+/*마진*/
+.mt5{margin-top: 5px;}
+.mt10{margin-top: 10px;}
+.mt15{margin-top: 15px;}
+.mt20{margin-top: 20px;}
+.mt25{margin-top: 25px;}
+.mt30{margin-top: 30px;}
+.ml5{margin-left: 5px;}
+.ml10{margin-left: 10px;}
+.ml15{margin-left: 15px;}
+.ml20{margin-left: 20px;}
+.mr5{margin-right: 5px;}
+.mr10{margin-right: 10px;}
+.mr15{margin-right: 15px;}
+.mr20{margin-right: 20px;}
+.mb5{margin-bottom: 5px;}
+.mb10{margin-bottom: 10px;}
+.mb15{margin-bottom: 15px;}
+.mb20{margin-bottom: 20px;}
 .sub .df_bg>ul>li a p{display: block;font-size: 20px;color: #fff;text-align: center;width: 100%;position: absolute;left: 0;bottom: 10%;}
