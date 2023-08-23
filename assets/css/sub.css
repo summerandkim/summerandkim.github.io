@@ -9,7 +9,9 @@
 .sub .display2020_w02{background-image: url(../../assets/images/sub/web/2020/dobong2020_s.jpg);background-position: 50%;}
 .sub .display2020_w03{background-image: url(../../assets/images/sub/web/2020/sudam2020_s.jpg);background-position: 50%;}
 .sub .display2020_w04{background-image: url(../../assets/images/sub/web/2020/medicity2020_s.png);background-position: 50%;}
+.sub .display2020_w05{background-image: url(../../assets/images/sub/web/2020/ganghwa2021_s.jpg);background-position: 50%;}
 .sub .display2023_w01{background-image: url(../../assets/images/sub/web/2023/yongdong2023_s.jpg);background-position: 50%;}
+
 
 /*-------------------------------------------------------------------------*/
 /*목록 썸네일 이미지*/
@@ -21,6 +23,7 @@
 .sub .subcont .cont li .lth_2020medicity{background-image: url(../../assets/images/list_thum/2020medicity_lth.jpg);background-position: 50%;}
 .sub .subcont .cont li .lth_2021sudam{background-image: url(../../assets/images/list_thum/2021sudam_lth.jpg);background-position: 50%;}
 .sub .subcont .cont li .lth_2023yongdong{background-image: url(../../assets/images/list_thum/2023yongdong_lth.jpg);background-position: 50%;}
+.sub .subcont .cont li .lth_2021ganghwa{background-image: url(../../assets/images/list_thum/2020ganghwa_lth.jpg);background-position: 50%;}
 
 /*app*/
 .cont li .lth_2020bibly{background-image: url(../../assets/images/list_thum/2020bibly_lth.jpg);background-position: 50%;}
