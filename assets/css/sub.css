@@ -7,7 +7,7 @@
 /*2020*/
 .sub .display2020_w01{background-image: url(../../assets/images/sub/web/2020/dungji2020_s.jpg);background-position: 50%;}
 .sub .display2020_w02{background-image: url(../../assets/images/sub/web/2020/dobong2020_s.jpg);background-position: 50%;}
-.sub .display2020_w03{background-image: url(../../assets/images/sub/web/2020/gapyeong2020_s.jpg);background-position: 50%;}
+.sub .display2020_w03{background-image: url(../../assets/images/sub/web/2020/sudam2020_s.jpg);background-position: 50%;}
 .sub .display2020_w04{background-image: url(../../assets/images/sub/web/2020/medicity2020_s.png);background-position: 50%;}
 .sub .display2023_w01{background-image: url(../../assets/images/sub/web/2023/yongdong2023_s.jpg);background-position: 50%;}
 
@@ -32,6 +32,7 @@
 .cont li .lth_2020woo{background-image: url(../../assets/images/list_thum/2020woo_lth.jpg);background-position: 50%;}
 .cont li .lth_2021maic{background-image: url(../../assets/images/list_thum/2021maic_lth.jpg);background-position: 50%;}
 .cont li .lth_2023yd{background-image: url(../../assets/images/list_thum/2023yd_lth.jpg);background-position: 50%;}
+.cont li .lth_2023uni{background-image: url(../../assets/images/list_thum/2023uni_lth.jpg);background-position: 50%;}
 
 /*-------------------------------------------------------------------------*/
 /*Web - 서브컨텐츠 디테일*/
@@ -79,9 +80,16 @@
 .yongdong{background:#EFF4F1;}
 .yongdong .concept_cir>li{background-color:#fff;}
 .yongdong .concept_cir>li>p>b{color:#2f483f;border-bottom: 1px solid #bacdc6;}
-.dobong .concept_cir>li>p>em{color:#2f483f;}
-.dobong .overview .concept_cir li{border:1px solid #bacdc6;}
+.yongdong .concept_cir>li>p>em{color:#2f483f;}
+.yongdong .overview .concept_cir li{border:1px solid #bacdc6;}
 
+
+/*수담*/
+.sudam{background:#f1efed;}
+.sudam .concept_cir>li{background-color:#333;}
+.sudam .concept_cir>li>p>b{color:#fff;border-bottom: 1px solid #bacdc6;}
+.sudam .concept_cir>li>p>em{color:#fff;}
+.sudam .overview .concept_cir li{border:1px solid #bacdc6;}
 
 /*-------------------------------------------------------------------------*/
 /*App - 서브컨텐츠 디테일*/
