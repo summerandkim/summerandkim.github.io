@@ -24,6 +24,7 @@
 .sub .subcont .cont li .lth_2021sudam{background-image: url(../../assets/images/list_thum/2021sudam_lth.jpg);background-position: 50%;}
 .sub .subcont .cont li .lth_2023yongdong{background-image: url(../../assets/images/list_thum/2023yongdong_lth.jpg);background-position: 50%;}
 .sub .subcont .cont li .lth_2021ganghwa{background-image: url(../../assets/images/list_thum/2020ganghwa_lth.jpg);background-position: 50%;}
+.sub .subcont .cont li .lth_2023gov{background-image: url(../../assets/images/list_thum/2023gov_lth.jpg);background-position: 50%;}
 
 /*app*/
 .cont li .lth_2020bibly{background-image: url(../../assets/images/list_thum/2020bibly_lth.jpg);background-position: 50%;}
@@ -34,8 +35,10 @@
 .cont li .lth_2017info{background-image: url(../../assets/images/list_thum/2017info_lth.jpg);background-position: 50%;}
 .cont li .lth_2020woo{background-image: url(../../assets/images/list_thum/2020woo_lth.jpg);background-position: 50%;}
 .cont li .lth_2021maic{background-image: url(../../assets/images/list_thum/2021maic_lth.jpg);background-position: 50%;}
-.cont li .lth_2023yd{background-image: url(../../assets/images/list_thum/2023yd_lth.jpg);background-position: 50%;}
+.lth_2023yd{background-image: url(../../assets/images/list_thum/2023yd_lth.jpg);background-position: 50%;}
 .cont li .lth_2023uni{background-image: url(../../assets/images/list_thum/2023uni_lth.jpg);background-position: 50%;}
+.cont li .lth_2021dog{background-image: url(../../assets/images/list_thum/2021dog_lth.jpg);background-position: 50%;}
+
 
 /*-------------------------------------------------------------------------*/
 /*Web - 서브컨텐츠 디테일*/
@@ -137,6 +140,12 @@ font-weight: 900;font-size: 21px;}
 .detail_sec .woo_bg .fontclchip .clchp>span:nth-child(1){margin-left: 18px;color: #fff;}
 .detail_sec .woo_bg .fontclchip .clchp>span:nth-child(2){float: right;margin-right: 18px;color: #48428c;}
 
+
+/*강아지 공부 일지*/
+.detail_sec .dogbg{background-image: url(../images/sub/contents/2021/dog_bg.jpg); background-repeat: no-repeat;}
+.detail_sec .dogbg .overview{padding:170px 102px 140px; height: inherit;}
+.detail_sec .dogbg .ov h4{color: #fff;}
+.detail_sec .dogbg .ov p{color: #fff;}
 
 /*한국메디컬 AI연구소*/
 .maic{background-image: url(../../assets/images/sub/contents/2021/maic_bg.png); background-position: 0% 50%; background-repeat: no-repeat;}
