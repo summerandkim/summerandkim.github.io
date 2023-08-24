@@ -1,10 +1,10 @@
 /*기본 공통css*/
-html, body{width: 100%; height: 100%;}
+html, body{width: 1920px; height: 100%;}
 #wrap{width: 100%;height: 100%;}
 
 /*--------------------------------------------------------------------------*/
 /*사이드 네비*/
-.sidenav{box-sizing: border-box;position: fixed;left: 0;top: 0;padding: 36px 45px;width: 250px;height: 100%;border-right: 1px solid #999;background-color: #fff;}
+.sidenav{box-sizing: border-box;position: fixed;left: 0;top: 0;padding: 36px 45px;width: 250px;height: 100%;border-right: 1px solid #999;background-color: #fff;z-index: 99;}
 .sidenav h1 {background-image: url(../images/common/qlogo.jpg);width: 72px;height: 215px;}
 .sidenav h1 a {display: block;width: 72px;height: 215px;}
 .sidenav ul {margin-top: 120px;}
