@@ -41,8 +41,12 @@ html, body{width: 100%; height: 100%;}
 /*--------------------------------------------------------------------------*/
 /*서브 콘텐츠*/
 .sub .subcont .cont {margin-top: 160px;box-sizing: border-box; padding: 35px 35px 70px 70px;}
-.sub .subcont .cont ul {}
-.sub .subcont .cont li {margin-right: 3%;width: 30%;display: inline-block;margin-top: 35px;}
+.sub .subcont .cont ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.sub .subcont .cont li {/* margin-right: 3%; */width: calc(100%/3 - 3rem);/* display: inline-block; */margin-top: 35px;}
 .sub .subcont .cont li:last-child{margin-right: 0;}
 .sub .subcont .cont li a {display: block;width: 100%;height: 270px;background-color: #e0e0e0;overflow: hidden;}
 .sub .subcont .cont li div {margin-top: 13px;}
@@ -246,7 +250,35 @@ html, body{width: 100%; height: 100%;}
 /*--------------------------------------------------------------------------*/
 
 
+@media (max-width: 1200px) {
 
+  .sub .subcont {width:calc( 100% - 200px );}
+  .sidenav {width:200px;}
+  .sub .subcont .cont {padding:35px;}
+  .sub .subcont .cont ul {gap:2rem;}
+  .sub .subcont .cont li {width:calc(100%/2 - 2rem);}
+  
+
+
+
+  
+}
+
+
+@media (max-width: 960px) {
+  
+.sub .subcont .cont ul {display:block; gap:0rem;}
+  .sub .subcont .cont li {width:100%;}
+  
+}
+
+
+
+@media (max-width: 760px) {
+
+   .sub .subcont {width:calc( 100% - 150px );}
+  .sidenav {width:150px;}
+}
 
 
 
