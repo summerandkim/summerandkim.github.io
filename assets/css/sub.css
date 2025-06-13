@@ -89,6 +89,12 @@
 .yongdong .concept_cir>li>p>em{color:#2f483f;}
 .yongdong .overview .concept_cir li{border:1px solid #bacdc6;}
 
+/*국회회의록 홈페이지*/
+.assembly{background:#f5f9ff;}
+.assembly .concept_cir>li{background-color:#fff;}
+.assembly .concept_cir>li>p>b{color:#2f483f;border-bottom: 1px solid #bacdc6;}
+.assembly .concept_cir>li>p>em{color:#2f483f;}
+.assembly .overview .concept_cir li{border:1px solid #bacdc6;}
 
 /*수담*/
 .sudam{background:#f1efed;}
