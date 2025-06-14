@@ -117,6 +117,20 @@
 .sudam .concept_cir>li>p>em{color:#fff;}
 .sudam .overview .concept_cir li{border:1px solid #bacdc6;}
 
+/*홈페이지 템플릿*/
+.temweb{background:#f1efed;}
+.temweb .concept_cir>li{background-color:#333;}
+.temweb .concept_cir>li>p>b{color:#fff;border-bottom: 1px solid #bacdc6;}
+.temweb .concept_cir>li>p>em{color:#fff;}
+.temweb .overview .concept_cir li{border:1px solid #bacdc6;}
+
+/*관리자 템플릿*/
+.temadmin{background:#fff;}
+.temadmin .concept_cir>li{background-color:#333;}
+.temadmin .concept_cir>li>p>b{color:#fff;border-bottom: 1px solid #bacdc6;}
+.temadmin .concept_cir>li>p>em{color:#fff;}
+.temadmin .overview .concept_cir li{border:1px solid #bacdc6;}
+
 /*-------------------------------------------------------------------------*/
 /*App - 서브컨텐츠 디테일*/
 /*대구광역시 전기차 자동차*/
