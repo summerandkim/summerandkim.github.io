@@ -102,7 +102,7 @@
 /*국회회의록 뷰어*/
 .viewer{background:#f7f8ff;}
 .viewer .concept_cir>li{background-color:#333333;}
-.viewer .concept_cir>li>p>b{color:#2f483f;border-bottom: 1px solid #bacdc6;}
+.viewer .concept_cir>li>p>b{color:#fff;border-bottom: 1px solid #bacdc6;}
 .viewer .concept_cir>li>p>em{color:#2f483f;}
 .viewer .overview .concept_cir li{border:1px solid #bacdc6;}
 
