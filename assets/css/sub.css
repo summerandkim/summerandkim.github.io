@@ -128,6 +128,7 @@
 /*관리자 템플릿*/
 .temadmin{background:#37363b;}
 .temadmin h4{color:#fff!important;}
+.temadmin2 h4{color:#fff;}
 .temadmin .concept_cir>li{background-color:#0ba5ff;}
 .temadmin .concept_cir>li>p>b{color:#fff;border-bottom: 1px solid #bacdc6;}
 .temadmin .concept_cir>li>p>em{color:#fff;}
