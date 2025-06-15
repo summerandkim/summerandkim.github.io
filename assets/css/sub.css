@@ -105,12 +105,11 @@
 
 /*국회회의록 뷰어*/
 .viewer{background:#f7f8ff;}
-.viewer .detail_cont>div h4{color:#fff!important;}
 .viewer .concept_cir>li{background-color:#333333;}
 .viewer .concept_cir>li>p>b{color:#fff;border-bottom: 1px solid #bacdc6;}
 .viewer .concept_cir>li>p>em{color:rgba(255, 255, 255, 0.4);}
 .viewer .overview .concept_cir li{border:1px solid #bacdc6;}
-.viewer .overview .overview_txt>p{color:#fff!important;}
+
 
 /*수담*/
 .sudam{background:#f1efed;}
@@ -128,10 +127,12 @@
 
 /*관리자 템플릿*/
 .temadmin{background:#37363b;}
+.temadmin .detail_cont>div h4{color:#fff!important;}
 .temadmin .concept_cir>li{background-color:#0ba5ff;}
 .temadmin .concept_cir>li>p>b{color:#fff;border-bottom: 1px solid #bacdc6;}
 .temadmin .concept_cir>li>p>em{color:#fff;}
 .temadmin .overview .concept_cir li{border:none;}
+.temadmin .overview .overview_txt>p{color:#fff!important}
 
 /*-------------------------------------------------------------------------*/
 /*App - 서브컨텐츠 디테일*/
