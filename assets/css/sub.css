@@ -125,7 +125,7 @@
 .temweb .overview .concept_cir li{border:1px solid #bacdc6;}
 
 /*관리자 템플릿*/
-.temadmin{background:#fff;}
+.temadmin{background:#37363b;}
 .temadmin .concept_cir>li{background-color:#333;}
 .temadmin .concept_cir>li>p>b{color:#fff;border-bottom: 1px solid #bacdc6;}
 .temadmin .concept_cir>li>p>em{color:#fff;}
