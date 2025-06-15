@@ -131,7 +131,7 @@
 .temadmin .concept_cir>li{background-color:#0ba5ff;}
 .temadmin .concept_cir>li>p>b{color:#fff;border-bottom: 1px solid #bacdc6;}
 .temadmin .concept_cir>li>p>em{color:#fff;}
-.temadmin .overview .concept_cir li{border:1px solid #bacdc6;}
+.temadmin .overview .concept_cir li{border:none;}
 
 /*-------------------------------------------------------------------------*/
 /*App - 서브컨텐츠 디테일*/
