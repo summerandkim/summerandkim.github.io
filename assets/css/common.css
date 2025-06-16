@@ -20,7 +20,7 @@ html, body{width: 100%; height: 100%;}
 /*서브네비*/
 .sub {background-color: #fff;width: 100%;}
 .sub .subcont {position: relative;width: calc( 100% - 250px );float: right;}
-.sub .subcont ul.subtab{display: block;width: 100%;;padding:128px 0 16px 65px;border-bottom: 1px solid #c1c1c1;position: fixed;top: 0;background-color: #fff;z-index: 100;}
+.sub .subcont ul.subtab{display: block;width: 100%; min-width:1440px; padding:128px 0 16px 65px;border-bottom: 1px solid #c1c1c1;position: fixed;top: 0;background-color: #fff;z-index: 100;}
 .sub .subcont ul.subtab li{display: inline-block;margin-right: 126px;}
 .sub .subcont ul.subtab li:last-child{margin-right: 0;}
 
@@ -65,7 +65,7 @@ html, body{width: 100%; height: 100%;}
 /*--------------------------------------------------------------------------*/
 
 /*서브 콘텐츠 디테일*/
-.sub .detail_tit{position: fixed;width: calc( 100% - 250px );display: block;padding: 100px 5% 28px 5%;box-sizing: border-box;text-align: center;top: 0;z-index: 100;}
+.sub .detail_tit{position: fixed;width: calc( 100% - 250px ); min-width:1440px; display: block;padding: 100px 5% 28px 5%;box-sizing: border-box;text-align: center;top: 0;z-index: 100;}
 .sub .detail_tit p{display: inline-block;font-size: 45px;font-weight: 100;font-family: 'Noto Sans KR', sans-serif;letter-spacing: -2.5px;}
 .sub .detail_tit>button{width: 50px;height: 50px;border: 2px solid #111;background-image: url(../images/common/sd_btn.png);background-repeat: no-repeat;background-position: 50%;position: absolute;right: 5%;background-color: #fff;}
 .sub .detail_tit>button>a{display: block;width: 100%;height: 100%;}
