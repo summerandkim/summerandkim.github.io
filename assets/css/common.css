@@ -1,6 +1,6 @@
 /*기본 공통css*/
 html, body{width: 100%; height: 100%;}
-#wrap{overflow:hidden;}
+#wrap{width: 100%;overflow: hidden;min-width: 1440px;}
 
 /*--------------------------------------------------------------------------*/
 /*사이드 네비*/
